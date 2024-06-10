@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet a pour but d'analyser et de prédire les retards de vol. Il utilise des données historiques pour entraîner un modèle d'apprentissage automatique, et une application web permet d'interagir avec ce modèle pour obtenir des prédictions.
+Ce projet a pour but d'analyser et de prédire les retards de vol. Il utilise des données historiques pour entraîner un modèle d'apprentissage automatique, et une application web permet d'interagir avec ce modèle pour obtenir des prédictions. 
 
 ## Fonctionnalités
 
@@ -16,17 +16,15 @@ Ce projet a pour but d'analyser et de prédire les retards de vol. Il utilise de
 ```plaintext
 flight-delay-prediction/
 ├── app/
-│   └── streamlit_app.py
+│   └── str_app.py
 ├── data/
 │   ├── data_cleaned.parquet
-├── docs/
+├── presentation/
 │   └── presentation.pdf
 ├── models/
-│   └── RFt_model.joblib
+│   └── model.joblib
 ├── notebooks/
 │   ├── eda.ipynb
 │   ├── model_training.ipynb
-│   └── prediction.ipynb
 ├── .gitignore
-├── requirements.txt
 └── README.md
